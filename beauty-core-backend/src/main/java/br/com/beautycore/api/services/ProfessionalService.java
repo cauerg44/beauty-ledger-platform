@@ -107,6 +107,10 @@ public class ProfessionalService {
             entity.setName(dto.name());
         }
 
+        if (dto.email() != null) {
+            entity.setEmail(dto.email());
+        }
+
         if (!dto.specializationsIds().isEmpty()) {
             entity.getSpecializations().clear();
             for (long specialtyId : dto.specializationsIds()) {
@@ -114,6 +118,10 @@ public class ProfessionalService {
                         .orElseThrow(() -> new ResourceNotFoundException("Especialidade não encontrada"));
                 entity.addSpecialty(specialty);
             }
+        }
+
+        if (dto.password() != null) {
+            entity.setPassword(dto.password());
         }
 
         entity.setUpdatedAt(LocalDateTime.now());

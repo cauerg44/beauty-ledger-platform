@@ -12,6 +12,9 @@ public record ProfessionalPatchRequestDTO(
         @Size(max = 100, message = "Email deve ser válido.")
         String email,
 
+        @Size(max = 100, message = "Senha deve ser válida.")
+        String password,
+
         Set<@Positive(message = "ID do especialidade deve ser positivo") Long> specializationsIds
 ) {
 
