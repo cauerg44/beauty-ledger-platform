@@ -34,8 +34,8 @@ export default function Profile() {
         </Link>
 
 
-        <Link to={"/financial-reports/total-profit-in-live"}>
-          <h4>Vizualizar total apurado de hoje no salão</h4>
+        <Link to={"/financial-reports"}>
+          <h4>Acessar financeiro do sistema</h4>
         </Link>
 
         {
@@ -43,10 +43,6 @@ export default function Profile() {
           <>
             < Link to={"/financial-reports/professional-total-profit-in-live"}>
               <h4>Ver meu total apurado de hoje</h4>
-            </Link>
-
-            < Link to={"/financial-reports/professional-total-profit-filtered"}>
-              <h4>Acessar meu lucro total por filtragem</h4>
             </Link>
           </>
         }

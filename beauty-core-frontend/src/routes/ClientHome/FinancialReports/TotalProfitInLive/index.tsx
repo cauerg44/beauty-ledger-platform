@@ -19,7 +19,7 @@ export default function TotalProfitInLive() {
     <section id="total-profit-in-live-section" className="bcf-container-1200px">
 
       <div className='bcf-total-profit-in-live-modal-container'>
-        <h2>Total ao vivo:</h2>
+        <h2>Total apurado no momento:</h2>
 
         <h3>Pix: <span>R$ {totalProfitInLive?.pix.toFixed(2)}</span></h3>
         <h3>Dinheiro: <span>R$ {totalProfitInLive?.cash.toFixed(2)}</span></h3>
