@@ -46,6 +46,8 @@ public class SpecialtyService {
         newSpecialty.setName(dto.name());
         newSpecialty.setCreatedAt(LocalDateTime.now());
 
+        newSpecialty = repository.save(newSpecialty);
+
         return new SpecialtyResponseDTO(newSpecialty.getId(), newSpecialty.getName());
     }
 

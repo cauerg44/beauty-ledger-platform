@@ -51,6 +51,8 @@ public class JobItemService {
         entity.setBasePrice(dto.basePrice());
         entity.setCreatedAt(LocalDateTime.now());
 
+        entity = repository.save(entity);
+
         return new JobItemResponseDTO(entity.getId(), entity.getName(), entity.getBasePrice());
     }
 
