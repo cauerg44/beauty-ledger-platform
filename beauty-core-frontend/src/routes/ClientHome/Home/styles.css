@@ -4,12 +4,12 @@
 
 .bcf-home-modal h2 {
   font-size: 30px;
-  color: var(--bcf--font-color-secondary);
+  color: var(--bcf--font-color-2);
   margin-bottom: 10px;
 }
 
 .bcf-home-modal h3 {
   font-size: 20px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 25px;
 }

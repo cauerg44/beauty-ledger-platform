@@ -1,5 +1,5 @@
 header {
-  background-color: var(--bcf--bg-color-primary);
+  background-color: var(--bcf--bg-color-1);
   height: 8vh;
   padding: 20px;
   display: flex;
@@ -14,13 +14,13 @@ nav {
 
 header h1 {
   font-weight: 700;
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
   font-size: 24px;
 }
 
 header h3 {
   font-weight: 400;
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
   font-size: 16px;
   cursor: pointer;
 }

@@ -45,7 +45,7 @@ export function findAppointmentById(appointmentId: number) {
   return requestBackend(config);
 }
 
-export function findAllAppointmentsByStatus(appointmentStatus: string, size = 12) {
+export function findAllAppointmentsByStatus(appointmentStatus: string, size = 20) {
 
   const config: AxiosRequestConfig = {
     url: "/appointments",

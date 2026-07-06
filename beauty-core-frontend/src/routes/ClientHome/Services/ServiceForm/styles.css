@@ -16,7 +16,7 @@
 
 .bcf-listing-services-title {
   font-size: 28px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
 }
 
 .bcf-services-cards-modal {
@@ -25,7 +25,7 @@
 
 .bcf-services-card-container {
   padding: 5px 10px;
-  background-color: var(--bcf--bg-color-primary);
+  background-color: var(--bcf--bg-color-1);
   border: none;
   border-radius: 8px 8px 0 0;
 }
@@ -36,18 +36,18 @@
 }
 
 .bcf-services-card-container h3 {
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
   font-weight: 500;
   margin-bottom: 5px;
 }
 
 .bcf-services-card-container h4 {
   font-size: 14px;
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
 }
 
 .bcf-services-card-actions {
-  border: 2px solid var(--bfc--border-color-primary);
+  border: 2px solid var(--bfc--border-color-1);
   border-radius: 0 0 8px 8px;
   padding: 10px 25px;
   display: flex;

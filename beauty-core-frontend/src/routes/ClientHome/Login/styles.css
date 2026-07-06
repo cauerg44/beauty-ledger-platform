@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px solid var(--bfc--border-color-tertiary);
+  border: 3px solid var(--bfc--border-color-3);
   border-radius: 5px;
   padding: 35px 50px;
 }
@@ -20,16 +20,16 @@
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  color: var(--bcf--bg-color-tertiary);
+  color: var(--bcf--bg-color-3);
 }
 
 .bcf-modal-form-login-container button {
   width: 100%;
-  background-color: var(--bcf--bg-color-primary);
+  background-color: var(--bcf--bg-color-1);
   padding: 10px;
   border: none;
   border-radius: 5px;
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
   font-weight: 500;
   cursor: pointer;
 }

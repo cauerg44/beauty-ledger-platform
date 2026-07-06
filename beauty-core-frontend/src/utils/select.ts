@@ -10,11 +10,11 @@ export const selectStyles = {
   }),
   placeholder: (provided: any) => ({
     ...provided,
-    color: "var(--bfc--util-color-quaternary)",
+    color: "var(--bfc--util-color-4)",
   }),
   option: (provided: any) => ({
     ...provided,
-    color: "var(--bfc--util-color-quaternary)",
+    color: "var(--bfc--util-color-4)",
   }),
   indicatorSeparator: (provided: any) => ({
     ...provided,

@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-  --bcf--bg-color-primary: #1B4D3E;
-  --bcf--bg-color-secondary: #A64D64;
-  --bcf--bg-color-tertiary: #263238;
-  --bcf--bg-color-quaternary: #e0e0e0;
-  --bcf--bg-color-quintanary: #e95353;
-  --bcf--bg-color-senary: #c6c6c6;
+  --bcf--bg-color-1: #1B4D3E;
+  --bcf--bg-color-2: #A64D64;
+  --bcf--bg-color-3: #263238;
+  --bcf--bg-color-4: #e0e0e0;
+  --bcf--bg-color-5: #e95353;
+  --bcf--bg-color-6: #c6c6c6;
 
-  --bcf--font-color-primary: #fff;
-  --bcf--font-color-secondary: #263238;
-  --bcf--font-color-tertiary: #888888;
-  --bcf--font-color-quaternary: #1B4D3E;
-  --bcf--font-color-quintanary: #3c3c3c;
-  --bcf--font-color-senary: #0CAF1D;
+  --bcf--font-color-1: #fff;
+  --bcf--font-color-2: #263238;
+  --bcf--font-color-3: #888888;
+  --bcf--font-color-4: #1B4D3E;
+  --bcf--font-color-5: #3c3c3c;
+  --bcf--font-color-6: #0CAF1D;
 
-  --bfc--border-color-primary: #1B4D3E;
-  --bfc--border-color-secondary: #155a45;
-  --bfc--border-color-tertiary: #c6c6c6;
+  --bfc--border-color-1: #1B4D3E;
+  --bfc--border-color-2: #155a45;
+  --bfc--border-color-3: #c6c6c6;
 
-  --bfc--util-color-primary: #426aa6;
-  --bfc--util-color-secondary: #4b44c9;
-  --bfc--util-color-tertiary: #249e51;
-  --bfc--util-color-quaternary: #c6c6c6;
-  --bcf--util-color-quintanary: #888888;
-  --bfc--util-color-senary: #3e6db8;
+  --bfc--util-color-1: #426aa6;
+  --bfc--util-color-2: #4b44c9;
+  --bfc--util-color-3: #249e51;
+  --bfc--util-color-4: #c6c6c6;
+  --bcf--util-color-5: #888888;
+  --bfc--util-color-6: #3e6db8;
   --bfc--util-color-7: #e95353;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 
 html,
 body {
-  background-color: var(--bcf--bg-color-quaternary);
+  background-color: var(--bcf--bg-color-4);
 }
 
 main {
@@ -89,7 +89,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--bcf--bg-color-quaternary);
+  background-color: var(--bcf--bg-color-4);
   border-radius: 5px;
   padding: 20px;
   position: absolute;
@@ -100,7 +100,7 @@ main {
 
 .bcf-dialog-box h2 {
   font-size: 20px;
-  color: var(--bcf--font-color-quintanary);
+  color: var(--bcf--font-color-5);
   margin-bottom: 20px;
 }
 
@@ -122,7 +122,7 @@ main {
 
 .bcf-form-title-section {
   font-size: 28px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 15px;
 }
 
@@ -130,14 +130,14 @@ main {
   padding: 20px 15px;
   margin: 20px 0;
   width: 300px;
-  border: 2px solid var(--bfc--border-color-tertiary);
+  border: 2px solid var(--bfc--border-color-3);
   border-radius: 5px;
 }
 
 .bcf-form-modal-container h3 {
   font-size: 24px;
   text-align: center;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
 }
 
 .bcf-form-modal {
@@ -154,13 +154,13 @@ main {
 .bcf-form-modal input {
   border-radius: 5px;
   padding: 10px;
-  border: 1px solid var(--bfc--util-color-quaternary);
+  border: 1px solid var(--bfc--util-color-4);
   margin-bottom: 10px;
-  color: var(--bfc--util-color-quaternary);
+  color: var(--bfc--util-color-4);
 }
 
 .bcf-form-modal input::placeholder {
-  color: var(--bfc--util-color-quaternary);
+  color: var(--bfc--util-color-4);
 }
 
 .bcf-form-modal input:focus {
@@ -169,11 +169,11 @@ main {
 
 .bcf-form-modal button {
   width: 100%;
-  background-color: var(--bcf--bg-color-primary);
+  background-color: var(--bcf--bg-color-1);
   padding: 10px;
   border: none;
   border-radius: 5px;
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
   font-weight: 500;
   cursor: pointer;
 }

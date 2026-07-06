@@ -11,8 +11,8 @@
 /* Specialty card styles: */
 
 .bcf-specialty-card {
-  border: 2px solid var(--bcf--bg-color-primary);
-  color: var(--bcf--font-color-quaternary);
+  border: 2px solid var(--bcf--font-color-4);
+  color: var(--bcf--font-color-4);
   border-radius: 8px;
   height: 35px;
   display: flex;

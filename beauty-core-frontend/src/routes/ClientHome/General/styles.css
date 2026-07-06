@@ -5,13 +5,13 @@
 .bcf-general-modal h2 {
   margin-bottom: 30px;
   font-size: 32px;
-  color: var(--bcf--bg-color-tertiary);
+  color: var(--bcf--bg-color-3);
 }
 
 .bcf-actions-items-general h4 {
   font-size: 20px;
   margin-bottom: 15px;
-  color: var(--bcf--bg-color-secondary);
+  color: var(--bcf--bg-color-2);
 }
 
 .bcf-action-item {
@@ -19,8 +19,8 @@
   align-items: center;
   width: 200px;
   height: 35px;
-  background-color: var(--bcf--bg-color-primary);
-  color: var(--bcf--font-color-primary);
+  background-color: var(--bcf--bg-color-1);
+  color: var(--bcf--font-color-1);
   border-radius: 8px;
   font-size: 15px;
   margin-bottom: 15px;

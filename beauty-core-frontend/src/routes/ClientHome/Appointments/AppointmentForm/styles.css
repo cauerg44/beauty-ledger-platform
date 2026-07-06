@@ -10,7 +10,7 @@
 
 .bcf-search-bar-message {
   font-size: 28px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 15px;
 }
 
@@ -21,6 +21,6 @@
 }
 
 .bcf-discount-message-form {
-  color: var(--bfc--util-color-senary);
+  color: var(--bfc--util-color-6);
   padding-left: 5px;
 }

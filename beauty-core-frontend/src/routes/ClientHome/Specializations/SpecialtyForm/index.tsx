@@ -1,4 +1,3 @@
-import './styles.css';
 import { useEffect, useState } from 'react';
 import FormInput from '../../../../components/FormInput/index.tsx';
 import { useNavigate, useParams } from 'react-router-dom';

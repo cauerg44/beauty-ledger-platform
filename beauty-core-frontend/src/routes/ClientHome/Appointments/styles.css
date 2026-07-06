@@ -4,13 +4,13 @@
 
 .bcf-appointments-modal h2 {
   font-size: 30px;
-  color: var(--bcf--font-color-secondary);
+  color: var(--bcf--font-color-2);
   margin-bottom: 10px;
 }
 
 .bcf-appointments-modal h3 {
   font-size: 20px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 10px;
 }
 
@@ -22,7 +22,7 @@
 .bcf-appointments-modal h4 {
   font-size: 16px;
   margin-bottom: 10px;
-  color: var(--bcf--font-color-quaternary);
+  color: var(--bcf--font-color-4);
   transition: 0.2s;
 }
 
@@ -33,7 +33,7 @@
 
 .bcf-appointment-status-title-section {
   font-size: 30px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 30px;
 }
 

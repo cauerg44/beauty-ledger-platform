@@ -1,5 +1,5 @@
 .bcf-option-back-general {
-  border: 2px solid var(--bcf--font-color-quaternary);
+  border: 2px solid var(--bcf--font-color-4);
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   width: 100px;
   padding: 5px;
   font-size: 14px;
-  color: var(--bcf--font-color-quaternary);
+  color: var(--bcf--font-color-4);
   font-weight: 700;
   margin-bottom: 20px;
 }

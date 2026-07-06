@@ -11,7 +11,7 @@ public interface AppointmentRepository extends JpaRepository<Appointment, Long> 
     @Query(nativeQuery = true, value = """
         SELECT * FROM appointments ap
         WHERE ap.appointment_status = :appointmentStatus
-        ORDER BY ap.created_at DESC
+        ORDER BY ap.updated_at DESC
     """)
     Page<Appointment> findAllByStatusAndOrderByCreatedAtDesc(Pageable pageable, String appointmentStatus);
 

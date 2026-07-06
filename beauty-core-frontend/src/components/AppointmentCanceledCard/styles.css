@@ -1,7 +1,7 @@
 .bcf-appointment-canceled-card-infos {
   padding: 10px;
-  background-color: var(--bcf--bg-color-primary);
-  color: var(--bcf--font-color-primary);
+  background-color: var(--bcf--bg-color-1);
+  color: var(--bcf--font-color-1);
   border-radius: 8px 8px 0 0;
 }
 
@@ -17,19 +17,19 @@
 
 .bcf-appointment-canceled-card-infos span {
   font-weight: 700;
-  color: var(--bcf--font-color-senary);
+  color: var(--bcf--font-color-6);
 }
 
 .bcf-appointment-canceled-card-services {
   border-top: 0;
-  border: 2px solid var(--bfc--border-color-primary);
+  border: 2px solid var(--bfc--border-color-1);
   border-radius: 0 0 8px 8px;
-  background-color: var(--bcf--bg-color-quaternary);
+  background-color: var(--bcf--bg-color-4);
   padding: 10px 10px 0 10px;
 }
 
 .bcf-appointment-card-service-item {
-  background-color: var(--bcf--bg-color-senary);
+  background-color: var(--bcf--bg-color-6);
   border-radius: 8px;
   padding: 8px;
   margin-bottom: 15px;
@@ -41,13 +41,13 @@
 
 .bcf-appointment-card-service-item span {
   font-weight: 700;
-  color: var(--bcf--font-color-senary);
+  color: var(--bcf--font-color-6);
 }
 
 .bcf-appointment-canceled-card-status {
   margin: 10px 0;
   border-radius: 10px;
-  background-color: var(--bcf--bg-color-quintanary);
+  background-color: var(--bcf--bg-color-5);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -10,12 +10,12 @@
 
 .bcf-search-bar-message {
   font-size: 28px;
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 15px;
 }
 
 .bcf-professionals-count-info {
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
   margin-bottom: 20px;
 }
 
@@ -38,13 +38,13 @@
 
 .bfc-professional-card-modal-infos {
   border-radius: 8px 8px 0 0;
-  background-color: var(--bcf--bg-color-primary);
+  background-color: var(--bcf--bg-color-1);
   padding: 10px;
 }
 
 .bfc-professional-card-modal-infos h3 {
   font-size: 25px;
-  color: var(--bcf--font-color-primary);
+  color: var(--bcf--font-color-1);
 }
 
 .bfc-professional-card-modal-info-status-working {
@@ -61,7 +61,7 @@
 }
 
 .bfc-professional-card-modal-info-status-available {
-  background-color: var(--bfc--util-color-tertiary);
+  background-color: var(--bfc--util-color-3);
   color: white;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@
 }
 
 .bfc-professional-card-modal-info-status-active {
-  background-color: var(--bfc--util-color-tertiary);
+  background-color: var(--bfc--util-color-3);
   color: white;
   display: flex;
   align-items: center;
@@ -102,16 +102,16 @@
 .bfc-professional-card-modal-specializations {
   display: grid;
   grid-gap: 5px;
-  border: 2px solid var(--bfc--border-color-primary);
+  border: 2px solid var(--bfc--border-color-1);
   padding: 10px;
 }
 
 .bfc-professional-card-modal-specializations h4 {
-  color: var(--bcf--font-color-tertiary);
+  color: var(--bcf--font-color-3);
 }
 
 .bfc-professional-card-modal-specialization-item {
-  background-color: var(--bfc--util-color-senary);
+  background-color: var(--bfc--util-color-6);
   color: white;
   font-weight: 500;
   border-radius: 8px;
@@ -122,12 +122,12 @@
 }
 
 .bfc-professional-card-modal-actions {
-  border: 2px solid var(--bfc--border-color-primary);
+  border: 2px solid var(--bfc--border-color-1);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: var(--bcf--bg-color-primary);
+  background-color: var(--bcf--bg-color-1);
 }
 
 .bfc-professional-card-action-option-activate {
@@ -157,7 +157,7 @@
 }
 
 .bfc-professional-card-modal-action-edit {
-  border: 2px solid var(--bfc--border-color-primary);
+  border: 2px solid var(--bfc--border-color-1);
   border-radius: 0 0 8px 8px;
   padding: 10px;
 }
@@ -166,7 +166,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--bcf--font-color-quintanary);
+  color: var(--bcf--font-color-5);
   font-weight: 500;
 }
 
