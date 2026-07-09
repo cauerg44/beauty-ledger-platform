@@ -14,7 +14,6 @@ public record ClientCreateRequestDTO(
         @Size(max = 30, message = "Nome deve ter no máximo 100 caracteres")
         String name,
 
-        @NotBlank(message = "Telefone é obrigatório")
         @Pattern(regexp = "\\d{10,11}", message = "Telefone inválido")
         String phone,
 

@@ -26,7 +26,19 @@
   color: var(--bcf--font-color-1);
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 5px;
+  margin: 10px 0;
+}
+
+.bcf-card-client-null-phone {
+  margin: 20px 0;
+  padding: 8px;
+  display: inline;
+  height: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(186, 57, 57);
+  color: rgb(238, 231, 220);
+  font-weight: 600;
 }
 
 .bcf-card-client-actions {
@@ -48,5 +60,5 @@
 }
 
 .bcf-card-client-actions-item h4 {
-  color: var(--bcf--font-color-3);
+  color: var(--bcf--font-color-4);
 }

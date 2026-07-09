@@ -32,9 +32,9 @@ export default function ClientForm() {
       type: "text",
       placeholder: "Telefone",
       validation: function (value: string = "") {
-        return /^\d{11}$/.test(value);
+        return value === "" || /^\d{11}$/.test(value);
       },
-      message: "Favor informar um telefone com 11 dígitos",
+      message: "O telefone deve conter 11 dígitos",
     },
     birthDate: {
       value: "",
@@ -84,6 +84,10 @@ export default function ClientForm() {
     }
 
     const requestBody = forms.toValues(formData);
+
+    if (requestBody.phone === "") {
+      requestBody.phone = null;
+    }
 
     if (isEditing) {
       requestBody.id = Number(params.clientId);

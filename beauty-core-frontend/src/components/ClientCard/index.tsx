@@ -20,7 +20,15 @@ export default function ClientCard({ client }: Props) {
       <div className='bcf-card-client'>
         <h2>{client.name}</h2>
         <h3>Nascimento: {client.birthDate}</h3>
-        <h3>Telefone: {client.phone}</h3>
+        {
+          client.phone === null
+            ?
+            <div className='bcf-card-client-null-phone'>
+              Telefone não informado
+            </div>
+            :
+            <h3>Telefone: {client.phone}</h3>
+        }
         <h3>Crédito: R$ {client.credit.toFixed(2)}</h3>
       </div>
 
